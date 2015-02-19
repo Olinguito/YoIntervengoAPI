@@ -1,17 +1,19 @@
 {
-  "name": "PubWork",
-  "plural": "PubWorks",
+  "name": "Category",
+  "plural": "Categories",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
   "properties": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
-      "required": true
+    "icon": {
+      "type": "string"
+    },
+    "parent": {
+      "type": "string"
     }
   },
   "validations": [],

@@ -1,12 +1,15 @@
 {
-  "name": "PubWork",
-  "plural": "PubWorks",
+  "name": "History",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
   "properties": {
-    "title": {
-      "type": "string",
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "type": {
+      "type": "number",
       "required": true
     },
     "description": {

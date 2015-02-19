@@ -33,5 +33,25 @@
   "PubWork": {
     "dataSource": "yi-dev",
     "public": true
+  },
+  "Category": {
+    "dataSource": "yi-dev",
+    "public": true
+  },
+  "Link": {
+    "dataSource": "yi-dev",
+    "public": true
+  },
+  "History": {
+    "dataSource": "yi-dev",
+    "public": true
+  },
+  "ReportPicture": {
+    "dataSource": "yi-dev",
+    "public": true
+  },
+  "Reporter": {
+    "dataSource": "yi-dev",
+    "public": true
   }
 }

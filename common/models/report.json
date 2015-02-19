@@ -4,7 +4,7 @@
   "base": "PersistedModel",
   "idInjection": true,
   "properties": {
-    "title": {
+    "description": {
       "type": "string",
       "required": true
     },
@@ -12,16 +12,37 @@
       "type": "geopoint",
       "required": true
     },
-    "description": {
+    "status": {
+      "type": "number"
+    },
+    "title": {
       "type": "string",
       "required": true
     },
-    "status": {
-      "type": "number"
+    "address": {
+      "type": "string"
+    },
+    "type": {
+      "type": "number",
+      "required": true
+    },
+    "category": {
+      "type": "Category"
+    },
+    "link": {
+      "type": [
+        "Link"
+      ]
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Links": {
+      "type": "hasMany",
+      "model": "Link",
+      "foreignKey": "id"
+    }
+  },
   "acls": [],
   "methods": []
 }

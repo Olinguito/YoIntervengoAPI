@@ -1,0 +1,28 @@
+{
+  "name": "Reporter",
+  "base": "User",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "supportedreports": {
+      "type": [
+        "Report"
+      ]
+    },
+    "likes": {
+      "type": [
+        "number"
+      ],
+      "comments": "revizar"
+    },
+    "createdreports": {
+      "type": [
+        "Report"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

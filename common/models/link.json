@@ -1,16 +1,29 @@
 {
-  "name": "PubWork",
-  "plural": "PubWorks",
+  "name": "Link",
+  "plural": "Links",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
   "properties": {
+    "source": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
     "title": {
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
+    "type": {
+      "type": "number",
       "required": true
     }
   },

@@ -1,16 +1,22 @@
 {
-  "name": "PubWork",
-  "plural": "PubWorks",
+  "name": "ReportPicture",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
   "properties": {
-    "title": {
+    "description": {
+      "type": "string"
+    },
+    "url": {
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "user": {
+      "type": "number",
       "required": true
     }
   },
