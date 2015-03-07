@@ -1,22 +1,20 @@
 {
-  "name": "ReportPicture",
+  "name": "HistoryNode",
+  "plural": "HistoryNodes",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
   "properties": {
-    "description": {
-      "type": "string"
-    },
-    "url": {
-      "type": "string",
-      "required": true
-    },
     "date": {
       "type": "date",
       "required": true
     },
-    "user": {
+    "type": {
       "type": "number",
+      "required": true
+    },
+    "description": {
+      "type": "string",
       "required": true
     }
   },

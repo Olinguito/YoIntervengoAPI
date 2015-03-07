@@ -7,9 +7,6 @@
       "./models"
     ]
   },
-  "User": {
-    "dataSource": "db"
-  },
   "AccessToken": {
     "dataSource": "db",
     "public": false
@@ -40,15 +37,15 @@
   },
   "Link": {
     "dataSource": "yi-dev",
-    "public": true
+    "public": false
   },
-  "History": {
+  "HistoryNode": {
     "dataSource": "yi-dev",
-    "public": true
+    "public": false
   },
-  "ReportPicture": {
+  "Picture": {
     "dataSource": "yi-dev",
-    "public": true
+    "public": false
   },
   "Reporter": {
     "dataSource": "yi-dev",

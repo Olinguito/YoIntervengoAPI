@@ -37,10 +37,20 @@
   },
   "validations": [],
   "relations": {
-    "Links": {
+    "links": {
       "type": "hasMany",
       "model": "Link",
       "foreignKey": "id"
+    },
+    "history-nodes": {
+      "type": "hasMany",
+      "model": "HistoryNode",
+      "foreignKey": ""
+    },
+    "pictures": {
+      "type": "hasMany",
+      "model": "Picture",
+      "foreignKey": ""
     }
   },
   "acls": [],

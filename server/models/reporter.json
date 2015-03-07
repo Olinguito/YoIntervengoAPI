@@ -1,5 +1,6 @@
 {
   "name": "Reporter",
+  "plural": "Reporters",
   "base": "User",
   "strict": false,
   "idInjection": false,
@@ -9,16 +10,16 @@
         "Report"
       ]
     },
+    "createdreports": {
+      "type": [
+        "Report"
+      ]
+    },
     "likes": {
       "type": [
         "number"
       ],
       "comments": "revizar"
-    },
-    "createdreports": {
-      "type": [
-        "Report"
-      ]
     }
   },
   "validations": [],
