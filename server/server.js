@@ -7,15 +7,16 @@ var app = module.exports = loopback();
 // Sub-apps like REST API are mounted via boot scripts.
 boot(app, __dirname);
 
-app.start = function() {
-  // start the web server
-  return app.listen(function() {
-    app.emit('started');
-    console.log('Web server listening at: %s', app.get('url'));
-  });
+app.start = function () {
+    // start the web server
+    app.set('port', process.env.PORT || 3000);
+    return app.listen(function () {
+        app.emit('started');
+        console.log('Web server listening at: %s', app.get('url'));
+    });
 };
 
 // start the server if `$ node server.js`
 if (require.main === module) {
-  app.start();
+    app.start();
 }
