@@ -1,5 +1,6 @@
 {
   "name": "yo-intervengo-server",
+  "description": "yo-intervengo-server",
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
@@ -18,11 +19,15 @@
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
     "jshint": "^2.5.6"
   },
   "repository": {
     "type": "",
     "url": ""
   },
-  "description": "yo-intervengo-server"
+  "engines": {
+    "node": "0.12.x"
+  }
 }
