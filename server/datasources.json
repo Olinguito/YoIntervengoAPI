@@ -1,11 +1,7 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
-  },
-  "yi-dev": {
-    "database": "yi-dev",
-    "name": "yi-dev",
+    "database": "yo-intervengo",
     "connector": "mongodb"
   }
 }

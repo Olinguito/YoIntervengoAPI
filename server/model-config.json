@@ -24,31 +24,31 @@
     "public": false
   },
   "Report": {
-    "dataSource": "yi-dev",
+    "dataSource": "db",
     "public": true
   },
   "PubWork": {
-    "dataSource": "yi-dev",
+    "dataSource": "db",
     "public": true
   },
   "Category": {
-    "dataSource": "yi-dev",
+    "dataSource": "db",
     "public": true
   },
   "Link": {
-    "dataSource": "yi-dev",
+    "dataSource": "db",
     "public": false
   },
   "HistoryNode": {
-    "dataSource": "yi-dev",
+    "dataSource": "db",
     "public": false
   },
   "Picture": {
-    "dataSource": "yi-dev",
+    "dataSource": "db",
     "public": false
   },
   "Reporter": {
-    "dataSource": "yi-dev",
+    "dataSource": "db",
     "public": true
   }
 }

@@ -1,6 +1,6 @@
 module.exports = function addReportCategories(app) {
     //
-    app.dataSources['yi-dev'].automigrate('Category', function (err) {
+    app.dataSources['db'].automigrate('Category', function (err) {
         if (err) throw err;
 
         app.models.Category.create([
