@@ -5,6 +5,10 @@
   "strict": false,
   "idInjection": false,
   "properties": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true
@@ -14,6 +18,9 @@
     },
     "parent": {
       "type": "string"
+    },
+    "type": {
+      "type": "number"
     }
   },
   "validations": [],
